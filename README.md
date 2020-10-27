@@ -1,14 +1,14 @@
 # APP NAME
 
-## One Minute Pitch
+## ONE MINUTE PITCH
 
 # AUTHOR
 
-Kipngetich Ngeno
+##PAULYNE WAMBUI
 
 # DESCRIPTION
 
-This is an app that allows users to create,submit,vote pitches based on categories
+This amazing up allows users to create their own one minute pitch on different categories of life. You also have an opportunity to write a comment and even vote.
 
 #### Pitch Categories
 * pickup lines
@@ -19,31 +19,27 @@ This is an app that allows users to create,submit,vote pitches based on categori
 #### User Stories
 
 
-* A users can see pitches that other people have posted
-* A user can vote on posted pitches with either a down or an up vote
-* A user can comment on different pitches and leave feedback
-* A user can submit a pitch in any category
-* A user can submit to different categories
+* A users can see pitches that other people have posted.
+* A user can vote on posted pitches with either a down or an up vote.
+* A user can comment on different pitches and leave feedback.
+* A user can submit a pitch in any category.
+* A user can submit to different categories.
 
 
 ## Prerequisites
 * Python3.6
 
 ## Installation steps 
-* $ git clone https://github.com/Kipngetich33/One-Minute-Pitch.git
-* $ cd One-Minute-Pitch
+* $ git clone 
+* $ cd oneminute
 * $ source virtual/bin/activate
-* Inside the manage.py module change the config_name parameter from 'production' to 'development' ie app = create_app('production') should be app = create_app('development')
-* $ ./start.sh 
+* $ python3.6 manage.py server
 
 # How it works
 
-* A user needs to sign up
-* A user the needs to sign in order to create,vote and post pitches 
-
-# CREDITS
-
-#### Moringa School, StackOverflow.com and W3 schools
+* A user needs to sign up'
+* Then login in
+* You can sign in order to create,vote and post pitches 
 
 # Technologies Used
 
@@ -52,17 +48,13 @@ This is an app that allows users to create,submit,vote pitches based on categori
 * Bootstrap 
 * Python3.6
 * flask
-
-
-# Support and Contacts
-
-In case You have any issues using this code please do no hesitate to get in touch with me through khalifngeno@gmail.com or leave a commit here on github.
+* font-awesome
 
 # License
 
 * MIT License
 
-Copyright (c) 2017 Kipngetich Ngeno
+Copyright (c) 2020 PAULYNE WAMBUI
 
 
 
@@ -84,4 +76,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.*
 
-Copyright (c) 2017 ** [Kipngetich Ngeno](https://kipngetich33.github.io/ "Github Portfolio") ** 
+Copyright (c) 2017 ** [PAULYNE WAMBUI]() ** 
