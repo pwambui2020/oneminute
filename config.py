@@ -15,7 +15,7 @@ class Config:
     MAIL_USERNAME ='pwambui13@gmail.com'
     MAIL_PASSWORD = 'laurenneema'
     SUBJECT_PREFIX = 'One Minute Pitch'
-    SENDER_EMAIL = 'khalifngeno@gmail.com'
+    SENDER_EMAIL = 'pwambui13@gmail.com'
 
     # simple mde  configurations
     SIMPLEMDE_JS_IIFE = True
