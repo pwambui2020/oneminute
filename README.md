@@ -25,6 +25,9 @@ This amazing up allows users to create their own one minute pitch on different c
 * A user can submit a pitch in any category.
 * A user can submit to different categories.
 
+## Screenshot
+![oneminute](https://user-images.githubusercontent.com/69419673/97413203-8ae0e680-1913-11eb-9362-cecaa0355c60.png)
+
 
 ## Prerequisites
 * Python3.6
@@ -40,6 +43,7 @@ This amazing up allows users to create their own one minute pitch on different c
 * A user needs to sign up'
 * Then login in
 * You can sign in order to create,vote and post pitches 
+* Inside the manage.py module change the config_name parameter from 'production' to 'development' ie app = create_app('production') should be app = create_app('development')
 
 # Technologies Used
 
