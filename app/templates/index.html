@@ -10,18 +10,21 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container-fluid" style="background-color:#ffb6b9; padding:20px; margin-top:0px; padding-top:40px; padding-bottom:400px;">
+    <div class="container-fluid" style="background-color:#234e70; padding:20px; margin-top:0px; padding-top:40px; padding-bottom:400px;">
                
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 bg-white">
-            <div class="panel style="style="border: 3px solid color:grey; padding:20px; margin-top:10px; ">
-                <p style="font-family: 'Bellefair', serif; font-size:20px;">In life, you only have 60 seconds to impress someone. 1 minute can make or break you. How do we make sure that you use your 1 minute to actually say something meaningful. </p>
+            <div class="panel style="style="border: 3px; background-color:#f5f5f5; solid color:grey; padding:20px;  margin-top:10px; ">
+                <p style="font-family: 'Bellefair', serif; font-size:20px;">In life, you only have 60 seconds to impress someone. 1 minute can make or break you. How do we make sure that you use your 1 minute to actually say something meaningful.</p>
+                
+                <h3>This amazing application gives you ideas on different categories of pitches. It also gives you an opportunity to add yours, comment and even vote.</h3>
+                
                     
-                <p>Here is an example to get you started with a few examples on different categories.</p>
+                <h3>Here is an example to get you started with a few examples on different categories.<h3>
                 
                 <div style="text-align:center;">
                     <a href="{{url_for('main.new_pitch')}}">
                         <br>
-                        <span >We give you an opportunity to add your own pitch, write a comment, upvote or downvote</span>
+                        <h1>We give you an opportunity to add your own pitch, write a comment, upvote or downvote</h1>
                     </a>
 
                 </div>
@@ -31,7 +34,9 @@
         </div>
     </hr>
         <div class="all-pitches">
-            <span style="color:black;">CONSIDER ALL THE PITCHES BELOW</span>
+            <span style="color:black; margin-top:0px; font-size:20px;font-family: 'Cookie', cursive;
+            font-family: 'Henny Penny', cursive;
+            font-family: 'Ruge Boogie', cursive;">CONSIDER ALL THE PITCHES BELOW</span>
                 <hr> 
                 {{macro.displayPitches(pitches)}}
             

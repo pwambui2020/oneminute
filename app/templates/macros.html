@@ -4,7 +4,7 @@
 <div class="row">
 {% for pitch in pitches_list %}
   <div class="col-3">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width:18rem; font-weight: bolder;">
       <div class="card-body">
         <p class="card-text">{{pitch.pitch}}</p>
         <a href="{{url_for('main.new_comment',id=pitch.id)}}" class="card-link">Add comment</a>
